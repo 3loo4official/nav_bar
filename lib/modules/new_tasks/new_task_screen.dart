@@ -5,7 +5,7 @@ class NewTasksScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
+    return const Center(
       child: Text(
         'New Task',
         style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30.0),
